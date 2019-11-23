@@ -2,7 +2,6 @@
   font-family: "Roboto";
   src: url(assets/fonts/Roboto/Roboto-Black.ttf);
 }
-
 .head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,13 +50,8 @@
 }
 
 .main--center {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -194,4 +188,7 @@
 .tools--color_2::before {
   background-color: #41B6F7;
 }
+
 /*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.scss.map */
